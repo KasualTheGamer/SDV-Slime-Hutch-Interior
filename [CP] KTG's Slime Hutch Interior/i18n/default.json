@@ -1,0 +1,4 @@
+{
+	"config.EnableFishing.name": "Check to allow fishing in the slime hutch.",
+	"config.EnableFishing.description": "This will allow fishing the same fish available in town, as well as two special fish."
+}

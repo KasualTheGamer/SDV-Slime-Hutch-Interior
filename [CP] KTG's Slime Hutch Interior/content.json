@@ -1,0 +1,69 @@
+{
+	"Format": "2.7.0",
+	"ConfigSchema": {
+		"EnableFishing": {
+			"AllowValues": "true, false",
+			"Default": true
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/SlimeHutch",
+			"FromFile": "assets/SlimeHutch.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"SlimeHutch",
+				"FishAreas"
+			],
+			"Entries": {
+				"{{ModID}}_SlimeHutch_River": {
+					"DisplayName": null,
+					"Position": {
+						"X": 8,
+						"Y": 22,
+						"Width": 4,
+						"Height": 14
+					},
+					"CrabPotFishTypes": [
+						"freshwater"
+					],
+					"CrabPotJunkChance": 0.1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"SlimeHutch",
+				"Fish"
+			],
+			"When": [
+				{
+					"EnableFishing": true
+				}
+			],
+			"Entries": {
+				"{{ModID}}_SlimeHutch_River": [
+					{
+						"Id": "LOCATION_FISH Town",
+						"ItemId": "LOCATION_FISH Town"
+					},
+					{
+						"Id": "{{ModID}}_MidnightCarp",
+						"ItemId": "269",
+						"Condition": "TIME 2200 2600"
+					},
+					{
+						"Id": "{{ModID}}_Slimejack",
+						"ItemId": "796"
+					}
+				]
+			}
+		}
+	]
+}

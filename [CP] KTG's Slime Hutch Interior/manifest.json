@@ -1,11 +1,11 @@
 {
 	"Name": "KTG's Slime Hutch Interior",
 	"Author": "KasualTheGamer",
-	"Version": "0.1.0-beta",
+	"Version": "0.1.1-beta",
 	"Description": "Expands the Slime Hutch interior into a psuedo outdoor space with fishing.",
 	"UniqueID": "KTG.SlimeHutchInterior",
 	"UpdateKeys": [
-		"GitHub:KasualTheGamer/---"
+		"GitHub:KasualTheGamer/SDV-Slime-Hutch-Interior"
 	],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"

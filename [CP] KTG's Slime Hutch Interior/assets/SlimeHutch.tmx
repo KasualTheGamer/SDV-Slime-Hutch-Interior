@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="27" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="164">
  <properties>
-  <property name="AmbientLight" value="110 90 90"/>
-  <property name="AmbientNightLight" value="150 120 100"/>
+  <property name="AmbientLight" value="90 90 90"/>
+  <property name="AmbientNightLight" value="120 120 100"/>
+  <property name="BrookSounds" value="21 5 4 22 5 4 23 5 4 24 5 4 20 9 0 20 15 0 20 24 0"/>
   <property name="DefaultWarpLocation" value="11 24"/>
+  <property name="FloorIDs" value="Tree"/>
   <property name="PassOutSafe" value="T"/>
+  <property name="WallIDs" value="Tree"/>
   <property name="Warp" value="11 25 Farm 14 19"/>
   <property name="indoorWater" value="T"/>
  </properties>

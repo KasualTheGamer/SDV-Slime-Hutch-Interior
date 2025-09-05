@@ -109,6 +109,21 @@
 					]
 				}
 			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Slime Hutch",
+				"IndoorItems",
+				"Default_SlimeIncubator"
+			],
+			"Entries": {
+				"Tile": {
+					"X": 4,
+					"Y": 5
+				}
+			}
 		}
 	]
 }

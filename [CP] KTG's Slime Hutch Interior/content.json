@@ -4,6 +4,10 @@
 		"EnableFishing": {
 			"AllowValues": "true, false",
 			"Default": true
+		},
+		"NoSpoilers": {
+			"AllowValues": "true, false",
+			"Default": true
 		}
 	},
 	"Changes": [
@@ -41,13 +45,66 @@
 							"ItemId": "LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH"
 						},
 						{
+							"Id": "LOCATION_FISH Mountain",
+							"ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"EnableFishing": true,
+				"NoSpoilers": true
+			},
+			"Entries": {
+				"Slime Hutch": {
+					"Fish": [
+						{
 							"Id": "{{ModID}}_Slimejack",
-							"ItemId": "796"
+							"ItemId": "796",
+							"Condition": "PLAYER_VISITED_LOCATION Current BugLand"
 						},
+						{
+							"Id": "LOCATION_FISH Town",
+							"ItemId": "LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH"
+						},
+						{
+							"Id": "LOCATION_FISH Mountain",
+							"ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"EnableFishing": true,
+				"NoSpoilers": false
+			},
+			"Entries": {
+				"Slime Hutch": {
+					"Fish": [
 						{
 							"Id": "{{ModID}}_MidnightCarp",
 							"ItemId": "269",
 							"Condition": "TIME 2200 2600"
+						},
+						{
+							"Id": "{{ModID}}_Slimejack",
+							"ItemId": "796"
+						},
+						{
+							"Id": "LOCATION_FISH Town",
+							"ItemId": "LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH"
+						},
+						{
+							"Id": "LOCATION_FISH Mountain",
+							"ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
 						}
 					]
 				}

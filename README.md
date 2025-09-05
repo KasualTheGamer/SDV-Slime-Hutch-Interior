@@ -1,4 +1,4 @@
-# KTG's Slime Hutch Interior
+# ![KTG's Slime Hutch Interior](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/ktgs-slime-hutch-interior.png "KTG's Slime Hutch Interior")	
 
 I got bored with the regular slime hutch interior, and going in there feels like a chore to me, so I made this to make the interior more fun. 
 
@@ -6,11 +6,11 @@ This map provides more room in the Slime Hutch, an auto-fenced area where you ca
 
 ![Catching a Slimejack](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/CatchingSlimejack.png "Catching a Slimejack!")
 
-# Dependencies
+# ![Dependencies](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/dependencies.png "Dependencies")
 
 You must have [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) v 2.7 or later installed for this map to properly load. This is a content pack for Content Patcher. 
 
-# Config Options
+# ![Config Options](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/config-options.png "Config Options")
 
 SMAPI will generate a config file that looks like the below. I suggest using [GMCM](https://www.nexusmods.com/stardewvalley/mods/5098) to allow managing the options in game.
 
@@ -27,13 +27,13 @@ SMAPI will generate a config file that looks like the below. I suggest using [GM
 
 ![GMCM config example](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/Config_GMCM.png "Config using GMCM")
 
-# Compatability and Interactions with Other Mods
+# ![Compatibility](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/compatibility.png "Compatibility and Interactions with Other Mods")
 
 This mod only changes the interior layout map of the Slime Hutch, which does involve an update to Data/Buildings/Slime Hutch to get the Slime Incubator to spawn in a different location. It uses base game assets, so if you're using a recolor mod like [Vibrant Pastoral Redrawn](https://www.nexusmods.com/stardewvalley/mods/6367) those changes will affect the look of this map. 
 
 This mod will conflict with any other mod that replaces the Slime Hutch interior. 
 
-# Translations
+# ![Translations](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/translations.png "Translations")
 
 The only thing to translate is the GMCM config menu.
 
@@ -54,31 +54,31 @@ The only thing to translate is the GMCM config menu.
 
 [GT]: https://translate.google.com/
 
-# Quirks
+# ![Quirks](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/quirks.png "Quirks")
 
 A quirk is something that isn't going to get changed any time soon, and doesn't break the game. 
 
 - Have not yet figured out how to move the water troughs >.<
 - Slime balls spawn on the little cliffy, as well as the dirt zone. 
 
-# Known Issues 
+# ![Known Issues](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/known-issues.png "Known Issues")
 
 These would be problems I'm actively working to fix.
 
 - No known issues at this time.
 
-# Acknowledgements
+# ![Acknowledgements](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/with-much-thanks.png "Thank you!")
 
 A big thanks to bblueberry on the SDV Discord modders chat for help getting the fishing to work, and to Selph (same venue) for help figuring out how to get the slime incubator to load properly!
 
-# Mods in Screenshots
+# ![Mods in Screenshots](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/mods-in-screenshots.png "Mods in Screenshots")
 
 - [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098)
 - [Visible Fish](https://www.nexusmods.com/stardewvalley/mods/8897)
 - [Happy Fish Jump](https://www.nexusmods.com/stardewvalley/mods/6516)
 - [Fishing Info Overlays](https://www.nexusmods.com/stardewvalley/mods/8970)
 
-# Source Code
+# ![Source Code](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/source-code.png "Source Code")
 
 Beta versions of this mod will be on [GitHub](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior). 
 

@@ -8,6 +8,10 @@
 		"NoSpoilers": {
 			"AllowValues": "true, false",
 			"Default": true
+		},
+		"WaterPosition": {
+			"AllowValues": "Top, Right, Left, None",
+			"Default": "Top"
 		}
 	},
 	"Changes": [
@@ -15,6 +19,16 @@
 			"Action": "Load",
 			"Target": "Maps/SlimeHutch",
 			"FromFile": "assets/SlimeHutch.tmx"
+		},
+		{
+			"LogName": "Troughs Right, Left, or Top",
+			"Action": "EditMap",
+			"Target": "Maps/SlimeHutch",
+			"PatchMode": "Overlay",
+			"FromFile": "assets/Water_{{WaterPosition}}.tmx",
+			"When": {
+				"FloatWater |contains=Top, Right, Left": "true"
+			}
 		},
 		{
 			"Action": "EditData",

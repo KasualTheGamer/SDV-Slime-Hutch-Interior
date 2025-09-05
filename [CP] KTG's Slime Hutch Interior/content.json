@@ -26,6 +26,18 @@
 			"Target": "Maps/SlimeHutch",
 			"PatchMode": "Overlay",
 			"FromFile": "assets/Water_{{WaterPosition}}.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 27
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 27
+			},
 			"When": {
 				"FloatWater |contains=Top, Right, Left": "true"
 			}

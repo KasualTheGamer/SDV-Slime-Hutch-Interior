@@ -1,0 +1,191 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>README.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+  </head>
+  <body>
+    <h1 id="ktgs-slime-hutch-interior">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/ktgs-slime-hutch-interior.png" alt="KTG's Slime Hutch Interior" title="KTG's Slime Hutch Interior" />
+    </h1>
+    <p>I got bored with the regular slime hutch interior, and going in there feels like a chore to me, so I made this to make the interior more fun.</p>
+    <p>This map provides more room in the Slime Hutch, an auto-fenced area where you can corral your slimes, and fishing that matches the town and the mountain area fishing, plus Slimejacks and Midnight Carp felt appropriate.</p>
+    <p>
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/CatchingSlimejack.png" alt="Catching a Slimejack" title="Catching a Slimejack!" />
+    </p>
+    <h1 id="dependencies">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/dependencies.png" alt="Dependencies" title="Dependencies" />
+    </h1>
+    <p>You must have <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher</a> v 2.7 or later installed for this map to properly load. This is a content pack for Content Patcher.</p>
+    <h1 id="config-options">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/config-options.png" alt="Config Options" title="Config Options" />
+    </h1>
+    <p>SMAPI will generate a config file that looks like the below. I suggest using <a href="https://www.nexusmods.com/stardewvalley/mods/5098">GMCM</a> to allow managing the options in game.</p>
+    <pre>
+      <code>{
+  "EnableFishing": "true",
+  "NoSpoilers": "true"
+}
+</code>
+    </pre>
+    <p>
+      <code>EnableFishing</code> can take either <code>true</code> or <code>false</code> values. <code>True</code> lets you fish in the stream inside the Slime Hutch. <code>False</code> disables fishing in the Slime Hutch.</p>
+    <p>
+      <code>EnableFishing</code> has to be set to <code>true</code> for the <code>NoSpoilers</code> option to have any affect. It, likewise, takes either <code>true</code> or <code>false</code> values, and when <code>true</code> limits fishing to just the fish that are can be fished up in the Town or the Mountain map <strong>until</strong> the current player visits the map where Slime Jacks spawn. When <code>false</code> and <code>EnableFishing</code> is <code>true</code>, Slime Jacks can be fished up at all times, and Midnight Carp can be caught even in Spring or Summer, though still only between 10 PM and 2 AM.</p>
+    <p>
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/Config_GMCM.png" alt="GMCM config example" title="Config using GMCM" />
+    </p>
+    <h1 id="compatibility">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/compatibility.png" alt="Compatibility" title="Compatibility and Interactions with Other Mods" />
+    </h1>
+    <p>This mod only changes the interior layout map of the Slime Hutch, which does involve an update to Data/Buildings/Slime Hutch to get the Slime Incubator to spawn in a different location. It uses base game assets, so if you're using a recolor mod like <a href="https://www.nexusmods.com/stardewvalley/mods/6367">Vibrant Pastoral Redrawn</a> those changes will affect the look of this map.</p>
+    <p>This mod will conflict with any other mod that replaces the Slime Hutch interior.</p>
+    <h1 id="translations">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/translations.png" alt="Translations" title="Translations" />
+    </h1>
+    <p>The only thing to translate is the GMCM config menu.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>File</th>
+          <th>Thank You,</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>English</td>
+          <td>default.json</td>
+          <td>KasualTheGamer</td>
+        </tr>
+        <tr>
+          <td>Chinese (Simplified)</td>
+          <td>zh.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>French</td>
+          <td>fr.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>German</td>
+          <td>de.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Hungarian</td>
+          <td>hu.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Italian</td>
+          <td>it.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Japanese</td>
+          <td>ja.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Korean</td>
+          <td>ko.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Portuguese</td>
+          <td>pt.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Russian</td>
+          <td>ru.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Spanish</td>
+          <td>es.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Turkish</td>
+          <td>tr.json</td>
+          <td>
+            <a href="https://translate.google.com/">Google Translate</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 id="quirks">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/quirks.png" alt="Quirks" title="Quirks" />
+    </h1>
+    <p>A quirk is something that isn't going to get changed any time soon, and doesn't break the game.</p>
+    <ul>
+      <li>Have not yet figured out how to move the water troughs &gt;.&lt;</li>
+      <li>Slime balls spawn on the little cliffy, as well as the dirt zone.</li>
+    </ul>
+    <h1 id="known-issues">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/known-issues.png" alt="Known Issues" title="Known Issues" />
+    </h1>
+    <p>These would be problems I'm actively working to fix.</p>
+    <ul>
+      <li>No known issues at this time.</li>
+    </ul>
+    <h1 id="acknowledgements">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/with-much-thanks.png" alt="Acknowledgements" title="Thank you!" />
+    </h1>
+    <p>A big thanks to bblueberry on the SDV Discord modders chat for help getting the fishing to work, and to Selph (same venue) for help figuring out how to get the slime incubator to load properly!</p>
+    <h1 id="mods-in-screenshots">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/mods-in-screenshots.png" alt="Mods in Screenshots" title="Mods in Screenshots" />
+    </h1>
+    <ul>
+      <li>
+        <a href="https://www.nexusmods.com/stardewvalley/mods/5098">Generic Mod Config Menu</a>
+      </li>
+      <li>
+        <a href="https://www.nexusmods.com/stardewvalley/mods/8897">Visible Fish</a>
+      </li>
+      <li>
+        <a href="https://www.nexusmods.com/stardewvalley/mods/6516">Happy Fish Jump</a>
+      </li>
+      <li>
+        <a href="https://www.nexusmods.com/stardewvalley/mods/8970">Fishing Info Overlays</a>
+      </li>
+    </ul>
+    <h1 id="source-code">
+      <img src="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/7fb90b81a6fd3b048f41e561073eda185f3e5b8b/Images/source-code.png" alt="Source Code" title="Source Code" />
+    </h1>
+    <p>Beta versions of this mod will be on <a href="https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior">GitHub</a>.</p>
+    <p>If you think you can do better than me, you're probably right. I did not create any assets for this mod, so there's nothing for me to get flaffed over someone using. Have fun, and send me a link to what you make, please.</p>
+  </body>
+</html>

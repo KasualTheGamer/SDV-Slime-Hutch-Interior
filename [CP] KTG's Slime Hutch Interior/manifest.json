@@ -5,6 +5,7 @@
 	"Description": "Expands the Slime Hutch interior into a psuedo outdoor space with fishing.",
 	"UniqueID": "KTG.SlimeHutchInterior",
 	"UpdateKeys": [
+		"Nexus:37342",
 		"GitHub:KasualTheGamer/SDV-Slime-Hutch-Interior"
 	],
 	"ContentPackFor": {

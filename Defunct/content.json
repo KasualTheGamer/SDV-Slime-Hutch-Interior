@@ -8,6 +8,10 @@
 		"NoSpoilers": {
 			"AllowValues": "true, false",
 			"Default": true
+		},
+		"WaterPosition": {
+			"AllowValues": "Top, Right, Left, BottomRight, BottomLeft, None",
+			"Default": "Top"
 		}
 	},
 	"Changes": [
@@ -15,6 +19,67 @@
 			"Action": "Load",
 			"Target": "Maps/SlimeHutch",
 			"FromFile": "assets/SlimeHutch.tmx"
+		},
+		{
+			"LogName": "Remove existing troughs",
+			"Action": "EditMap",
+			"Target": "Maps/SlimeHutch",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 16,
+						"Y": 6
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 7
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 8
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 9
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				}
+			]
+		},
+		{
+			"LogName": "Troughs Right, Left, or Top",
+			"Action": "EditMap",
+			"Target": "Maps/SlimeHutch",
+			"PatchMode": "Overlay",
+			"FromFile": "assets/Water_{{WaterPosition}}.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 27
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 27
+			},
+			"When": {
+				"WaterPosition |contains=Top, Right, Left, BottomRight, BottomLeft": "true"
+			}
 		},
 		{
 			"Action": "EditData",

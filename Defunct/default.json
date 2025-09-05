@@ -1,0 +1,14 @@
+{
+	"config.EnableFishing.name": "Check to allow fishing in the slime hutch.",
+	"config.EnableFishing.description": "This will allow fishing the same fish available in town and in the mountains, as well as Slime Jacks.",
+	"config.NoSpoilers.name": "Check to prevent early access to special fish.",
+	"config.NoSpoilers.description": "This only matters if fishing is checked.",
+	"config.WaterPosition.name": "Where do you want the water troughs for the slimes?",
+	"config.WaterPosition.description": "Pick an option to orient the water troughs in the the hutch",
+	"config.WaterPosition.value.Top": "Top",
+	"config.WaterPosition.value.Right": "Right",
+	"config.WaterPosition.value.Left": "Left",
+	"config.WaterPosition.value.BottomRight": "Bottom on the Right",
+	"config.WaterPosition.value.BottomLeft": "Bottom on the Left",
+	"config.WaterPosition.value.None": "No Water Troughs!"
+}

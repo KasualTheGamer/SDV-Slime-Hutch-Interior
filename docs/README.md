@@ -4,7 +4,7 @@ I got bored with the regular slime hutch interior, and going in there feels like
 
 This map provides more room in the Slime Hutch, an auto-fenced area where you can corral your slimes, and fishing that matches the town and the mountain area fishing, plus Slimejacks and Midnight Carp felt appropriate.
 
-![Catching a Slimejack](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/CatchingSlimejack.png "Catching a Slimejack!")
+![Catching a Slimejack](img/CatchingSlimejack.png "Catching a Slimejack!")
 
 # ![Dependencies](img/dependencies.png "Dependencies")
 
@@ -25,7 +25,7 @@ SMAPI will generate a config file that looks like the below. I suggest using [GM
 
 `EnableFishing` has to be set to `true` for the `NoSpoilers` option to have any affect. It, likewise, takes either `true` or `false` values, and when `true` limits fishing to just the fish that are can be fished up in the Town or the Mountain map **until** the current player visits the map where Slime Jacks spawn. When `false` and `EnableFishing` is `true`, Slime Jacks can be fished up at all times, and Midnight Carp can be caught even in Spring or Summer, though still only between 10 PM and 2 AM.
 
-![GMCM config example](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior/blob/2d91c8a94aceaf2038487f7535fabdd13e58e136/Images/Config_GMCM.png "Config using GMCM")
+![GMCM config example](img/Config_GMCM.png "Config using GMCM")
 
 # ![Compatibility](img/compatibility.png "Compatibility and Interactions with Other Mods")
 

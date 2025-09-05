@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Jelölje be, ha engedélyezi a horgászatot a nyálkafészkében.",
+	"config.EnableFishing.description": "Ez lehetővé teszi ugyanazon halak horgászatát, amelyek a városban és a hegyekben is elérhetők, valamint néhány különleges hal horgászatát.",
+	"config.NoSpoilers.name": "Jelölje be, ha megakadályozza a különleges halakhoz való korai hozzáférést.",
+	"config.NoSpoilers.description": "Ez csak akkor számít, ha a horgászat be van jelölve."
+}

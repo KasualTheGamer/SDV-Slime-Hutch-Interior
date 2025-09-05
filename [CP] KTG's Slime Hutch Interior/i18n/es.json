@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Marcar para permitir la pesca en la conejera.",
+	"config.EnableFishing.description": "Esto permitirá pescar los mismos peces disponibles en la ciudad y en las montañas, además de un par de peces especiales.",
+	"config.NoSpoilers.name": "Marcar para evitar el acceso anticipado a peces especiales.",
+	"config.NoSpoilers.description": "Esto solo importa si la pesca está marcada."
+}

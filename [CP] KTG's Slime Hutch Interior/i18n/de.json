@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Aktivieren, um Angeln im Schleimhäuschen zu ermöglichen.",
+	"config.EnableFishing.description": "Dadurch können die gleichen Fische geangelt werden, die in der Stadt und in den Bergen verfügbar sind, sowie einige Spezialfische.",
+	"config.NoSpoilers.name": "Aktivieren, um den vorzeitigen Zugriff auf Spezialfische zu verhindern.",
+	"config.NoSpoilers.description": "Dies ist nur relevant, wenn Angeln aktiviert ist."
+}

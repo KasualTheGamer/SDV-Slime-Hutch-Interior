@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "スライムハッチで釣りをできるようにするにはチェックを入れてください。",
+	"config.EnableFishing.description": "これにより、町や山で釣れるのと同じ魚に加え、いくつかの特別な魚も釣れるようになります。",
+	"config.NoSpoilers.name": "特別な魚への早期アクセスを禁止するにはチェックを入れてください。",
+	"config.NoSpoilers.description": "これは釣りが有効な場合にのみ有効です。"
+}

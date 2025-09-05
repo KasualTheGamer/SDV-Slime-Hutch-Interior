@@ -1,6 +1,6 @@
 {
 	"config.EnableFishing.name": "Check to allow fishing in the slime hutch.",
-	"config.EnableFishing.description": "This will allow fishing the same fish available in town and in the mountains, as well as Slime Jacks.",
+	"config.EnableFishing.description": "This will allow fishing the same fish available in town and in the mountains, as well as a couple of special fish.",
 	"config.NoSpoilers.name": "Check to prevent early access to special fish.",
 	"config.NoSpoilers.description": "This only matters if fishing is checked."
 }

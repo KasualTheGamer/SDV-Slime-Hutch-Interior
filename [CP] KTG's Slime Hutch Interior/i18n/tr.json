@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Slime kulübesinde balık tutmaya izin vermek için işaretleyin.",
+	"config.EnableFishing.description": "Bu, şehirde ve dağlarda bulunan aynı balıkların yanı sıra birkaç özel balığın da avlanmasına izin verecektir.",
+	"config.NoSpoilers.name": "Özel balıklara erken erişimi engellemek için işaretleyin.",
+	"config.NoSpoilers.description": "Bu yalnızca balık tutma seçeneği işaretliyse önemlidir."
+}

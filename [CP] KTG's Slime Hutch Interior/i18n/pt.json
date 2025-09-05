@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Marque para permitir a pesca no abrigo de slime.",
+	"config.EnableFishing.description": "Isto permitirá a pesca dos mesmos peixes disponíveis na cidade e nas montanhas, bem como de alguns peixes especiais.",
+	"config.NoSpoilers.name": "Marque para impedir o acesso antecipado a peixes especiais.",
+	"config.NoSpoilers.description": "Isto só importa se a pesca estiver marcada."
+}

@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Cochez cette case pour autoriser la pêche dans le clapier à slimes.",
+	"config.EnableFishing.description": "Vous pourrez pêcher les mêmes poissons que ceux disponibles en ville et à la montagne, ainsi que quelques poissons spéciaux.",
+	"config.NoSpoilers.name": "Cochez cette case pour empêcher l'accès anticipé aux poissons spéciaux.",
+	"config.NoSpoilers.description": "Ceci n'est valable que si l'option pêche est cochée."
+}

@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "勾选此项可允许在史莱姆小屋中钓鱼。",
+	"config.EnableFishing.description": "这将允许钓取城镇和山区中相同的鱼类，以及史莱姆杰克鱼。",
+	"config.NoSpoilers.name": "勾选此项可防止提前获得特殊鱼类。",
+	"config.NoSpoilers.description": "此项仅在勾选钓鱼选项时有效。"
+}

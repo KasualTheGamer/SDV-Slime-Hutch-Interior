@@ -1,0 +1,6 @@
+{
+	"config.EnableFishing.name": "Seleziona per consentire la pesca nella tana della melma.",
+	"config.EnableFishing.description": "Questo consentirà di pescare gli stessi pesci disponibili in città e in montagna, oltre a un paio di pesci speciali.",
+	"config.NoSpoilers.name": "Seleziona per impedire l'accesso anticipato ai pesci speciali.",
+	"config.NoSpoilers.description": "Questo ha importanza solo se la pesca è selezionata."
+}

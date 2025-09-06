@@ -83,3 +83,7 @@ A big thanks to bblueberry on the SDV Discord modders chat for help getting the 
 Beta versions of this mod will be on [GitHub](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior). 
 
 If you think you can do better than me, you're probably right. I did not create any image assets for this mod (just arranged the vanilla tiles on a new map), so there's nothing for me to get flaffed over someone using. Have fun, and send me a link to what you make, please.
+
+# ![Notes](img/notes.png "Notes")
+
+This mod is taking part in Nexus Mod's [rewards program](https://help.nexusmods.com/article/112-donation-points-faq), with proceeds going 50/50 to the International Red Cross and Doctors without Borders.

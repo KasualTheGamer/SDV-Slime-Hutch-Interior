@@ -82,4 +82,4 @@ A big thanks to bblueberry on the SDV Discord modders chat for help getting the 
 
 Beta versions of this mod will be on [GitHub](https://github.com/KasualTheGamer/SDV-Slime-Hutch-Interior). 
 
-If you think you can do better than me, you're probably right. I did not create any assets for this mod, so there's nothing for me to get flaffed over someone using. Have fun, and send me a link to what you make, please.
+If you think you can do better than me, you're probably right. I did not create any image assets for this mod (just arranged the vanilla tiles on a new map), so there's nothing for me to get flaffed over someone using. Have fun, and send me a link to what you make, please.
